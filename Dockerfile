@@ -12,7 +12,7 @@ RUN python setup.py bdist_wheel
 RUN pip install dist/*.whl
 
 
-EXPOSE 6000
+EXPOSE 8002
 
 
 CMD acrtest
