@@ -10,7 +10,6 @@ setup(
     author_email='roozbeh.jalali@nielseniq.com',
     description='wrapper api',
     install_requires=[
-        'requests==2.20.0',
         'uvicorn==0.13.3',
         'fastapi==0.63.0',
         'setuptools==52.0.0',
